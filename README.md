@@ -21,9 +21,10 @@ The chatbot operates through the following key components:
 *   **Python**: The core programming language for the backend logic.
 *   **LangChain**: A framework for developing applications powered by language models. It's used for chaining together various components of the RAG pipeline.
 *   **ChromaDB**: A vector database used to store and retrieve document embeddings efficiently.
-*   **Streamlit/Flask (or similar)**: For creating the interactive web-based frontend (based on `frontend.py`).
+*   **Streamlit**: For creating the interactive web-based frontend (based on `frontend.py`).
 *   **Hugging Face Embeddings**: For generating vector embeddings from text.
 *   **Large Language Models (LLMs)**: Utilized for generating responses, potentially integrated via APIs (e.g., OpenAI, Google Gemini, or a local open-source LLM).
+*   **As of now I'm not connecting any direct DB to the project it the vector stores are stored in the directory.
 
 ## Setup and Installation
 
