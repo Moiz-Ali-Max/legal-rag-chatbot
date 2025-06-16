@@ -55,9 +55,9 @@ To set up and run this project locally, follow these steps:
 5.  **Environment Variables**: Create a `.env` file in the root directory of the project and add your API keys (e.g., for OpenAI, Google Gemini) if required by the LLM you choose to use.
     ```
     # Example for OpenAI API Key
-    OPENAI_API_KEY="your_openai_api_key_here"
+    GROQ_API_KEY="your_groq_api_key_here"
     ```
-6.  **Prepare PDF Documents**: Place your PDF documents (e.g., `univeral_human_rights.pdf`) in the `pdfs/` directory. The system is designed to read from this directory.
+6.  **Prepare PDF Documents**: Place your PDF documents (e.g., `universal_human_rights.pdf`) in the `pdfs/` directory. The system is designed to read from this directory.
 7.  **Run the Vector Database Ingestion**: This step will process your PDFs and populate the vector database.
     ```bash
     python vector_database.py
@@ -80,20 +80,12 @@ To set up and run this project locally, follow these steps:
 *   `.env`: Environment variables for API keys (ignored by Git).
 *   `.gitignore`: Specifies files and directories to be ignored by Git.
 
-## Screenshots
+## Screenshots / Images
 
-To include screenshots of your project's UI, please create a directory named `images` in the root of this repository. Then, you can add your screenshot files (e.g., `screenshot1.png`, `screenshot2.jpg`) into that `images` folder. Once added, you can link to them in this README like so:
-
-```markdown
-![Screenshot 1 Description](./images/screenshot1.png)
-![Screenshot 2 Description](./images/screenshot2.jpg)
-```
-Please replace `screenshot1.png` and `screenshot2.jpg` with your actual filenames and provide a suitable description for each.
+In the images folder of my project, I will add a screenshots when I'm running this project. I have not deployed ecause of OLLAMA, so that's why I run the project on local host, take screenshots and added that screenshots in my images folder. So you can also use this project just replace the actual api-key of yours using GroqClloud.
 
 ## Future Enhancements
 
 *   Add support for more document types (e.g., DOCX, TXT).
+*   I also want to add multimodels in this project.
 *   Implement user authentication and multi-user support.
-*   Improve the natural language understanding capabilities.
-*   Integrate with more advanced LLMs.
-*   Enhance the UI/UX of the frontend application. 
