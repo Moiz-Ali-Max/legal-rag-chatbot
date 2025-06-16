@@ -1,0 +1,20 @@
+# .env file
+.env
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+
+# Vector database and PDF storage
+vectorstore/
+pdfs/
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db 
